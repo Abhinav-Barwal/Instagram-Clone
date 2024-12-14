@@ -2,7 +2,7 @@ Instagram Clone - User Interface
 
 Project Overview
 
-This is a replica of the Instagram user interface, built using HTML, CSS, and JavaScript. It mimics the visual layout of Instagram, including design elements like the feed, navigation bar, and profile view etc, providing a hands-on experience with frontend development.
+This is a replica of the Instagram user interface, built using HTML, CSS, and JavaScript. It mimics the visual layout of Instagram, including design elements like the feed, navigation bar, and profile view etc, providing a hands-on experience with frontend development. I have tried to make it like a original one .
 
 Features :-
 
