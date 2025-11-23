@@ -1,0 +1,202 @@
+* {
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    scroll-behavior: smooth;    
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #000;
+}
+
+.container {
+    border : 1px solid #696767;
+    padding: 30px 30px 10px 30px;
+    background-color: #000;
+    border-radius: 2px;
+    text-align: center;
+    margin-top: 150px;
+}
+
+.content {
+    padding: 10px 0;
+}
+
+.content img {
+    width: 200px;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    row-gap: 14px;
+}
+
+.inputs {
+    display: flex;
+    flex-direction: column;
+    row-gap: 9px;
+}
+
+.content label {
+    display: flex;
+    align-items: center;
+    height: 40px;
+    width: 270px;
+    border: 1px solid #737373;
+    background-color:#0f0f0f;
+    border-radius: 3px;
+}
+
+.inputs ::placeholder {
+    color: #acabab;
+}
+
+.content input {
+    border: 1px;
+    height: 45px;
+    background-color: transparent;
+    font-size: 12px;
+    outline: none;
+    padding : 9px 8px 7px 8px;
+    color: #fff;
+    width: 100%;
+}
+
+.content button {
+    background-color: #0160a3;
+    border: 0;
+    padding: 7px 15px;
+    border-radius: 9px;
+    color: #fff;
+    font-size: 13px;
+}
+
+.forgot-buttons {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    row-gap: 10px;
+    margin-top: 22px;
+}
+
+.forgot-buttons button {
+    background: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 8px;
+    border: 0;
+    font-size: 13px;
+    cursor: pointer;
+}
+
+.forgot-buttons .fblogo i {
+    color: #0e98fc;
+    font-size: 23px;
+}
+
+.forgot-buttons button span a {
+    font-size: 13px;
+    color: #45adf8;
+}
+
+.forgot-buttons button span a:hover {
+    color: #fff;
+}
+
+.seperator {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 20px;
+    column-gap: 18px;
+    font-size: 14px;
+    color: #acabab;
+}
+
+.seperator span:nth-child(1),
+.seperator span:nth-child(3) {
+    width: 100%;
+    height: 1px;
+    background: #696767;
+    display: block;
+}
+
+.sign-up {
+    border: 1px solid #696767;
+    padding : 20px 55px;
+    margin-top: 10px;
+    font-size: 14px;
+    border-radius: 2px;
+}
+
+.sign-up p a {
+    color: #0096FF;
+    font-weight: 700;
+}
+
+.sign-up p {
+    font-size: 14px;
+    color: #fff;
+}
+
+.footer {
+    padding: 20px;
+    text-align: center;
+}
+
+.copyRight-first {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 100px;
+    color: #acabab;
+    font-family: Arial, sans-serif;
+}
+
+.copyRight-first span {
+    font-size: 0.80rem;
+    cursor: pointer;
+}
+
+.copyRight-first span:hover {
+    text-decoration: underline;
+}
+
+.copyRightYear-first {
+    font-size: 0.80rem;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    color: #acabab;
+    margin-top: 18px;
+    font-family: Arial, sans-serif;
+}
+
+@media screen  and (max-width: 600px) {
+
+    .copyRight-first {
+        gap: 10px;
+        font-size: 12px;
+    }
+
+    .footer-bottom {
+        flex-direction: column;
+        gap: 5px;
+    }
+}
+
+
